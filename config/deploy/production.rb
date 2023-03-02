@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 server '140.238.230.137', user: 'deploy', roles: %w{app db web}, primary: true ?
-set :branch, 'main'
+# set :branch, 'main'
 
 # role-based syntax
 # ==================
