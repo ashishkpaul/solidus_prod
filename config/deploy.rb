@@ -2,7 +2,7 @@
 lock "~> 3.17.2"
 
 set :application, "solidus_prod"
-set :repo_url, "git@example.com:ashishkpaul/solidus_prod.git"
+set :repo_url, "git@github.com:ashishkpaul/solidus_prod.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

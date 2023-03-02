@@ -8,8 +8,8 @@ require 'capistrano/rails'
 require 'capistrano/passenger'
 require 'capistrano/rbenv'
 
-set :rbenv_type, :user
-set :rbenv_ruby, '3.2.0'
+set :rbenv_type, :deploy
+set :rbenv_ruby, '3.0.5'
 
 # Load the SCM plugin appropriate to your project:
 #
