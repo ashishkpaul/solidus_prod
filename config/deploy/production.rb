@@ -48,7 +48,7 @@ set :branch, 'main'
 #    auth_methods: %w(password)
 #  }
 set :ssh_options, {
-  keys: %w(~/.ssh/deploy_cloud),
+  keys: %w(/home/deploy/.ssh/deploy_cloud),
   port: 50210
 }
 #

@@ -506,6 +506,7 @@ DEPENDENCIES
   simplecov-cobertura
   solidus!
   sprockets (~> 3)
+  sshkit
   teaspoon!
   teaspoon-mocha!
   webdrivers
