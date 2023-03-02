@@ -50,7 +50,7 @@ server '140.238.230.137', user: 'deploy', roles: %w{app db web}
 
 set :ssh_options, {
   keys: %w(/home/deploy/.ssh/deploy_cloud),
-  forward_agent: true,
+  $ forward_agent: true,
   port: 50210
 }
 
