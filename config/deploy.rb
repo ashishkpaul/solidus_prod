@@ -3,7 +3,6 @@ lock "~> 3.17.2"
 
 set :application, "solidus_prod"
 set :repo_url, "git@github.com:ashishkpaul/solidus_prod.git"
-set :ssh_options, { :forward_agent => true }
 
 set :branch,      fetch(:branch, 'main')
 # Default branch is :main
