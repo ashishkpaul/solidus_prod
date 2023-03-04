@@ -9,7 +9,7 @@
 
 # server '140.238.230.137', user: 'deploy', roles: %w{app db web}
 server '140.238.225.153', user: 'ubuntu', roles: %w{app db web}
-set :bundle_flags, "--no-deployment"
+# set :bundle_flags, "--no-deployment"
 
 # set :branch, 'main'
 
