@@ -10,7 +10,7 @@ set :branch, "main"
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/mnt/ext-hdd/Deploy/solidus/#{fetch :application}"
+set :deploy_to, "/home/ubuntu/solidus_proc/#{fetch :application}"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -31,7 +31,7 @@ set :deploy_to, "/mnt/ext-hdd/Deploy/solidus/#{fetch :application}"
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
 
 # Default value for default_env is {}
-set :default_env, { path: "/home/deploy/.rbenv/bin:$PATH" }
+set :default_env, { path: "/home/ubuntu/.rbenv/bin:$PATH" }
 
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }

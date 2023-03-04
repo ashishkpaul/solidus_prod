@@ -7,7 +7,9 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server '140.238.230.137', user: 'deploy', roles: %w{app db web}
+# server '140.238.230.137', user: 'deploy', roles: %w{app db web}
+server '140.238.225.153', user: 'ubuntu', roles: %w{app db web}
+
 # set :branch, 'main'
 
 # role-based syntax
@@ -49,10 +51,10 @@ server '140.238.230.137', user: 'deploy', roles: %w{app db web}
 #  }
 
 set :ssh_options, {
-  keys: %w(/home/deploy/.ssh/deploy_cloud),
+  keys: %w(/home/deploy/.ssh/solidus-ssh-key-2023-03-03.key),
   # forward_agent: true,
   # user: 'deploy',
-  port: '50210'
+  # port: '50210'
 }
 
 #
